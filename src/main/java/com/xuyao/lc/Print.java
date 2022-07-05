@@ -26,6 +26,14 @@ public class Print {
         }
     }
 
+    public static void print(int[][] nums){
+        Arrays.stream(nums).forEach(num->{
+            System.out.printf("[");
+            Arrays.stream(num).forEach(n-> System.out.printf("%d ",n));
+            System.out.printf("]");
+        });
+    }
+
     public static void print(int[] nums){
         Arrays.stream(nums).forEach(num-> System.out.println(num));
     }
