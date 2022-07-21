@@ -9,38 +9,23 @@ package com.xuyao.lc;
  */
 public class L69 {
 
-    private int s;
-
     public int mySqrt(int x) {
-        s = x;
-        if (x == 0) {
-            return 0;
+        int l=0,r=x,ans=-1;
+        while(l<=r){
+            int mid=l+(r-l)/2;
+            if((long)mid*mid<=x){
+                ans=mid;
+                l=mid+1;
+            }else{
+                r=mid-1;
+            }
         }
-        if (x == 1) {
-            return x;
-        }
-
-        return (int) sqrt(x);
-    }
-
-    /**
-     * 牛顿迭代法
-     *
-     * @param x
-     * @return
-     */
-    public double sqrt(double x) {
-        double res = (x + s / x) / 2;
-        if (res == x) {
-            return x;
-        } else {
-            return sqrt(res);
-        }
+        return ans;
     }
 
     public static void main(String[] args) {
         L69 demo = new L69();
-        System.out.println(demo.mySqrt(4));
+        System.out.println(demo.mySqrt(8));
     }
 
 }
