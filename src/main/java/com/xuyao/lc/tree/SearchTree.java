@@ -3,6 +3,8 @@
  */
 package com.xuyao.lc.tree;
 
+import com.xuyao.lc.TreeNode;
+
 /**
  * 搜索二叉树
  * @author yangfei

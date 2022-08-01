@@ -3,6 +3,7 @@
  */
 package com.xuyao.lc;
 
+import com.xuyao.lc.tree.TreeUtils;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -64,11 +65,7 @@ public class L94 {
 
     public static void main(String[] args) {
         L94 demo=new L94();
-        TreeNode root=new TreeNode(1);
-        TreeNode right=new TreeNode(2);
-        TreeNode left1=new TreeNode(3);
-        right.left=left1;
-        root.right=right;
+        TreeNode root=TreeUtils.buildTree(new Integer[]{1,null,2,3});
         Print.print(demo.inorderTraversal(root));
         System.out.printf("===========================\n");
         Print.print(demo.inorderTraversal2(root));
