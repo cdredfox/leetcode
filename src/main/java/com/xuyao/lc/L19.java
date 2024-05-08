@@ -3,6 +3,8 @@
  */
 package com.xuyao.lc;
 
+import com.xuyao.ListNode;
+
 /**
  * @author fei.yang
  * @date 2022/7/4 - 15:36

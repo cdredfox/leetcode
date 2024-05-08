@@ -3,7 +3,7 @@
  */
 package com.xuyao.lc;
 
-import java.util.List;
+import com.xuyao.ListNode;
 
 /**
  * @author fei.yang

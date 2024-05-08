@@ -1,7 +1,9 @@
 /*
  * Copyright 2021-2022 www.jiahui.com
  */
-package com.xuyao.lc;
+package com.xuyao;
+
+import com.xuyao.ListNode;
 
 import java.util.List;
 

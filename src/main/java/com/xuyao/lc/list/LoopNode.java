@@ -2,6 +2,8 @@ package com.xuyao.lc.list;/*
  * Copyright 2021-2022 www.xuyao.info
  */
 
+import com.xuyao.ListNode;
+
 /**
  * @author yangfei
  * @date 2022/5/8 - 10:00

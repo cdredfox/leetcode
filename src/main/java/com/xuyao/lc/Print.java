@@ -3,6 +3,8 @@
  */
 
 package com.xuyao.lc;
+import com.xuyao.ListNode;
+
 import java.util.Arrays;
 import java.util.List;
 

@@ -2,6 +2,8 @@ package com.xuyao.lc.list;/*
  * Copyright 2021-2022 www.xuyao.info
  */
 
+import com.xuyao.ListNode;
+
 /**
  * 环形链表
  * @author yangfei

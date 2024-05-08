@@ -1,5 +1,7 @@
 package com.xuyao.lc.list;
 
+import com.xuyao.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class list.ListNode {
